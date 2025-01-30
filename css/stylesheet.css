@@ -1,0 +1,20 @@
+.bg-cover{
+    background-image: url(../img/counter_bg.jpg);
+    background-size: cover;
+    width: 1140px;
+    height: 252px;
+    position: relative;
+}
+.bg-cover::before{
+    content: "";
+    width: 1140px;
+    height: 252px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bg-cover h1{
+    position: absolute;
+    top:30%;
+    left:30%;
+}
+    
